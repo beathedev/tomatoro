@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pomodoro Timer</title>
+</head>
+
+<body>
+    <section class="container">
+        <div class="top-title">
+            <h1 class="title">TOMATORO <img src="images/tomato-svgrepo-com.svg" alt="tomato logo" /></h1>
+            <h3 class="subtitle">Estude com eficiência.</h3>
+        </div>
+        <div class="timer-container">
+            <h2 class="tempo">25:00</h2>
+            <button> GO! </button>
+        </div>
+        <div class="task-container ">
+            <h2 class="tasks-title ">
+                Tarefas
+            </h2>
+            <div class="tasks">
+                <ul id="tasks">
+                    <li>A</li>
+                </ul>
+            </div>
+
+            <div class=" add-task ">
+                <button> + Tarefa</button>
+                <form action=" " id="form " style="display: none; ">
+                    <label for=" "> Nome da Tarefa
+                    <input type="text " name="tarefa " id=" ">
+                </label>
+                    <button type="submit ">Enviar</button>
+                </form>
+            </div>
+        </div>
+        <footer class="footer ">Feito </footer>
+    </section>
+</body>
+<script src="script.js" defer></script>
+
+</html>
